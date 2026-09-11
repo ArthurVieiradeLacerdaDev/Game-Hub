@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Minigame3.gd" type="Script" id=1]
+[ext_resource path="res://Button.tscn" type="PackedScene" id=2]
+
+[node name="Minigame3" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = 457.0
+margin_top = 274.0
+margin_right = 539.0
+margin_bottom = 305.0
+rect_pivot_offset = Vector2( -320, -208 )
+text = "Mini Game 3
+"
+
+[node name="Button" parent="." instance=ExtResource( 2 )]
+margin_left = 900.0
+margin_right = 1022.0
